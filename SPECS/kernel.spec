@@ -808,7 +808,7 @@ BuildRequires: redhat-sb-certs >= 9.4-0.1
 # exact git commit you can run
 #
 # xzcat -qq ${TARBALL} | git get-tar-commit-id
-Source0: https://www.kernel.org/pub/linux/kernel/v6.x/linux-%{tarfile_release}.xz
+Source0: https://www.kernel.org/pub/linux/kernel/v6.x/linux-%{tarfile_release}.tar.xz
 
 Source1: Makefile.rhelver
 Source2: %{package_name}.changelog
