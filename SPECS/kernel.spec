@@ -808,7 +808,7 @@ BuildRequires: redhat-sb-certs >= 9.4-0.1
 # exact git commit you can run
 #
 # xzcat -qq ${TARBALL} | git get-tar-commit-id
-Source0: https://cdn.kernel.org/pub/linux/kernel/v6.x/linux-%{tarfile_release}.xz
+Source0: https://www.kernel.org/pub/linux/kernel/v6.x/linux-%{tarfile_release}.xz
 
 Source1: Makefile.rhelver
 Source2: %{package_name}.changelog
@@ -967,7 +967,7 @@ Source4002: gating.yaml
 Patch1: patch-%{patchversion}-redhat.patch
 %endif
 
-Patch2: https://cdn.kernel.org/pub/linux/kernel/v6.x/patch-%{tarfile_release}.%{kernelpatch}.xz
+Patch2: https://www.kernel.org/pub/linux/kernel/v6.x/patch-%{tarfile_release}.%{kernelpatch}.xz
 
 # empty final patch to facilitate testing of kernel patches
 Patch999999: linux-kernel-test.patch
