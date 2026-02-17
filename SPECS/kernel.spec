@@ -179,7 +179,7 @@ Summary: The Linux kernel
 %define pkgrelease 65
 %define kversion 6
 %define tarfile_release 6.18
-%define kernelpatch 7
+%define kernelpatch 10
 # This is needed to do merge window version magic
 %define patchlevel 18
 # This allows pkg_release to have configurable %%{?dist} tag
